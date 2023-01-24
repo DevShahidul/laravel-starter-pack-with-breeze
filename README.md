@@ -7,6 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Laravel Starter Pack with Tailwindcss and Alpine.js
+
+## What inside?
+- Laravel 9.x - [laravel.com/docs/9.x] (https://laravel.com/docs/9.x)
+- Laravel Breeze [#starter-kits#breeze-and-blade] (https://laravel.com/docs/9.x/starter-kits#breeze-and-blade)
+- Laravel Component [Blad#components] (https://laravel.com/docs/9.x/blade#components)
+
+# Installation guide
+1. clone this repository:
+    ```shell 
+   git clone https://github.com/DevShahidul/laravel-starter-pack-with-breeze.git
+   ```
+2. Create database and add that in .env file following the .env.example
+3. Follow the commands below
+
+```shell
+#install Composer-dependency
+$ composer install
+# Migrate database
+$ php artisan migrate
+# install npm package
+$ npm install
+# Start project in dev server 
+$ npm run dev
+```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
